@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-b border-gray-200 shadow-lg">
+    <nav className="bg-white border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-24">
 
         {/* Logo */}
@@ -16,18 +16,24 @@ const Navbar = () => {
         {/* Menu for larger screens */}
         <div className="hidden md:flex items-center space-x-8">
           <div className="relative group">
-            <button className="text-gray-700 hover:text-gray-900 font-semibold">About Us</button>
+            <button className="text-gray-700 hover:text-gray-900 font-semibold flex items-center justify-center">About Us<span className="material-symbols-outlined">
+              keyboard_arrow_down
+            </span></button>
             {/* Dropdown items */}
             <div className="absolute hidden group-hover:block mt-2 w-32 bg-white shadow-md rounded-md">
             </div>
           </div>
           <div className="relative group">
-            <button className="text-gray-700 hover:text-gray-900 font-semibold">Our Work</button>
+            <button className="text-gray-700 hover:text-gray-900 font-semibold flex items-center justify-center">Our Work<span className="material-symbols-outlined">
+              keyboard_arrow_down
+            </span></button>
             <div className="absolute hidden group-hover:block mt-2 w-32 bg-white shadow-md rounded-md">
             </div>
           </div>
           <div className="relative group">
-            <button className="text-gray-700 hover:text-gray-900 font-semibold">Partner With Us</button>
+            <button className="text-gray-700 hover:text-gray-900 font-semibold flex items-center justify-center">Partner With Us <span className="material-symbols-outlined">
+              keyboard_arrow_down
+            </span></button>
             <div className="absolute hidden group-hover:block mt-2 w-32 bg-white shadow-md rounded-md">
             </div>
           </div>
