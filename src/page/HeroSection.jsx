@@ -12,10 +12,10 @@ const HeroSection = () => {
                         To fight food insecurity by leveraging the surplus <br />food from the hospitality industry.
                     </p>
                     <div className="mt-6 space-x-4">
-                        <button className="px-8 py-2 bg-gray-300 text-gray-800 font-semibold rounded-lg hover:bg-gray-400">
+                        <button className="px-3 py-2 md:px-8 md:py-2 bg-gray-300 text-gray-800 font-semibold rounded-lg hover:bg-gray-400">
                             Eternal Merch
                         </button>
-                        <button className="px-8 py-2 bg-gray-300 text-gray-800 font-semibold rounded-lg hover:bg-gray-400">
+                        <button className="px-3 py-2 md:px-8 md:py-2 bg-gray-300 text-gray-800 font-semibold rounded-lg hover:bg-gray-400">
                             Eternal Merch
                         </button>
                     </div>
