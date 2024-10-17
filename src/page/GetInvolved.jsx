@@ -1,6 +1,8 @@
 import React from "react";
 import SecPageComponents from "../components/ImageText";
 import { Button } from "@material-tailwind/react";
+import img9 from '../assets/img9.jpg'
+import img10 from '../assets/img10.jpg'
 
 const GetInvolved = () => {
   const data = {
@@ -11,8 +13,6 @@ const GetInvolved = () => {
     secPage_ParaData1:
       "Whether you're a restaurant with surplus food or an NGO fighting food insecurity, your participation can make a big difference. Get involved today by signing up on Shareplate and be part of the movement for good.",
 
-    image2:
-      "https://images.unsplash.com/photo-1504805572947-34fad45aed93?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title2: "Contact Us",
     secPage_ParaData2:
       "We’re here to help! Reach out to our team for more information on how Shareplate can help you fight food insecurity in your community.",
@@ -38,14 +38,12 @@ const GetInvolved = () => {
           </div>
         </div>
         <div className="bg-gray-200 rounded-lg h-48 md:h-80 overflow-hidden">
-          {/* <img src={props.image1} alt="Description of image" className='w-full h-full object-cover' /> */}
-          <img src="" alt="" />
+          <img src={img10} alt="Description of image" className='w-full h-full object-cover' />
         </div>
 
         {/* Section Image Right and Text Left */}
         <div className="bg-gray-200 rounded-lg h-48 md:h-80 overflow-hidden">
-          {/* <img src={props.image1} alt="Description of image" className='w-full h-full object-cover' /> */}
-          <img src="" alt="" />
+          <img src={img9} alt="Description of image" className='w-full h-full object-cover' />
         </div>
         <div className="flex flex-col justify-center">
           <h2 className="text-4xl font-bold mb-2">{data.title2}</h2>

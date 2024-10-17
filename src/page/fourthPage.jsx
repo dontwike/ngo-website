@@ -1,5 +1,7 @@
 import React from "react";
 import SecPageComponents from "../components/ImageText";
+import img2 from '../assets/img2.jpg'
+import img6 from '../assets/img6.jpg'
 
 const fourthPage = () => {
   const data = {
@@ -21,8 +23,8 @@ const fourthPage = () => {
     <>
       <SecPageComponents
         heading={data.heading}
-        image1={data.image1}
-        image2={data.image2}
+        image1={img2}
+        image2={img6}
         title1={data.title1}
         title2={data.title2}
         para1={data.secPage_ParaData1}

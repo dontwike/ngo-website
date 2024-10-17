@@ -25,14 +25,12 @@ const ImageText = (props) => {
           )}
         </div>
         <div className="bg-gray-200 rounded-lg h-48 md:h-80 overflow-hidden">
-          {/* <img src={props.image1} alt="Description of image" className='w-full h-full object-cover' /> */}
-          <img src="" alt="" />
+          <img src={props.image1} alt="Description of image" className='w-full h-full object-cover' />
         </div>
 
         {/* Section Image Right and Text Left */}
         <div className="bg-gray-200 rounded-lg h-48 md:h-80 overflow-hidden">
-          {/* <img src={props.image1} alt="Description of image" className='w-full h-full object-cover' /> */}
-          <img src="" alt="" />
+          <img src={props.image2} alt="Description of image" className='w-full h-full object-cover' />
         </div>
         <div className="flex flex-col items-start justify-center">
           <h2 className="text-2xl font-bold mb-4">{props.title2}</h2>
