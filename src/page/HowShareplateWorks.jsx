@@ -18,8 +18,8 @@ const HowShareplateWorks = () => {
     }
 
     return (
-        <section className="bg-white py-16">
-            <div className="container mx-auto lg:px-16">
+        <section className="bg-white pt-14 mt-14">
+            <div className="container mx-auto lg:px-14">
                 <h2 className="text-4xl font-bold text-center mb-10">How Shareplate Works</h2>
 
                 <div className="">

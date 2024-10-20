@@ -3,7 +3,7 @@ import React from "react";
 
 const ImageText = (props) => {
   return (
-    <section className="pt-16 px-4 md:px-16 lg:px-32">
+    <section className="pt-14 px-4 md:px-16 lg:px-32 lg:mt-14">
       {props.heading == null ? (
         ""
       ) : (

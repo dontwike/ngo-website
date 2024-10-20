@@ -19,7 +19,7 @@ const GetInvolved = () => {
   };
 
   return (
-    <section className="pt-16 px-4 md:px-16 lg:px-32">
+    <section className="pt-14 px-4 md:px-14 lg:px-32 mt-14">
         <h1 className="font-bold text-6xl flex items-center justify-center mb-16">
           {data.heading}
         </h1>

@@ -24,14 +24,13 @@ const Navbar = () => {
             </div>
           </div>
           <div className="relative group">
-            <button className="text-gray-700 hover:text-gray-900 font-semibold flex items-center justify-center">Our Work<span className="material-symbols-outlined">
-              keyboard_arrow_down
-            </span></button>
+            <button className="text-gray-700 hover:text-gray-900 font-semibold flex items-center justify-center">Our Gallery
+            </button>
             <div className="absolute hidden group-hover:block mt-2 w-32 bg-white shadow-md rounded-md">
             </div>
           </div>
           <div className="relative group">
-            <button className="text-gray-700 hover:text-gray-900 font-semibold flex items-center justify-center">Partner With Us <span className="material-symbols-outlined">
+            <button className="text-gray-700 hover:text-gray-900 font-semibold flex items-center justify-center">Join Us <span className="material-symbols-outlined">
               keyboard_arrow_down
             </span></button>
             <div className="absolute hidden group-hover:block mt-2 w-32 bg-white shadow-md rounded-md">
